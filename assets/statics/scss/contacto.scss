@@ -1,0 +1,201 @@
+section.start-c{
+    padding: 50px;
+    border-bottom: 1px solid rgb(0,0,0,.2);
+    background-color: var(--general-color-5);
+
+    @media (max-width: 991px){
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .text{
+        &.separator::after{
+            content: '';
+            width: 100px;
+            height: 3px;
+            border-radius: 4px;
+            background-color: var(--general-color-dark);
+            display: block;
+            margin-top: 10px;
+
+            @media (max-width: 991px) {
+                left: 0;
+                right: 0;
+                margin: auto;
+                margin-top: 20px;
+            }
+        }
+
+        .title{
+            font-size: 25px;
+            font-weight: 800;
+    
+            @media (max-width: 991px){
+                font-size: 28px;
+            }
+        }
+    
+        .desc{
+            font-size: 14px;
+            font-weight: 600;
+            color: rgb(0,0,0,.7);
+            
+            @media (max-width: 991px){
+                font-size: 13px;
+            }
+        }
+
+        .social-medias{
+            display: flex;
+            gap: 10px;
+
+            @media (max-width: 991px) {
+                justify-content: center;
+            }
+    
+            a{
+                .icon-social{
+                    padding: 6px;
+                    border-radius: 5px;
+                    
+                    &:hover{
+                        background-color: var(--general-color-10);
+                    }
+    
+                    svg{
+                        width: 30px;
+                        height: 30px;
+    
+                        path{
+                            fill: rgb(0, 0, 0,.7);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contact-settings{
+    padding: 50px;
+    display: flex;
+
+    @media (max-width: 991px){
+        padding: 20px;
+    }
+
+    .left-block{
+        width: 300px;
+
+        @media (max-width: 991px){
+            width: 100%;
+        }
+
+        .title{
+            font-size: 15px;
+            font-weight: 800;
+            color: rgb(0, 0, 0,.85);
+        }
+
+        .desc{
+            font-size: 13px;
+            font-weight: 600;
+            color: rgb(0,00,0,.7);
+        }
+
+        .steps-along{
+            font-size: 13px;
+            font-weight: 700;
+            color: rgb(0,0,0,.7);
+            padding: 10px;
+            background-color: rgb(0, 0, 0,.05);
+            border: 1px solid rgb(0, 0, 0,.1);
+            border-radius: 5px;
+
+            .title{
+                font-size: 14px;
+                color: rgb(0,0,0,.8);
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .right-block{
+        width: calc(100% - 300px);
+        padding: 10px 50px 10px 10px;
+
+        @media (max-width: 991px){
+            width: 100%;
+            padding: 0px;
+            margin-bottom: 40px;
+        }
+
+        form{
+            font-size: 14px;
+            font-weight: 600;
+            color: rgb(0, 0, 0,.7);
+
+            .texts{
+                .title{
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: rgb(0, 0, 0,.85);
+                    font-weight: 800;
+                }
+            }
+
+            .form-settings{
+                label{
+                    margin-bottom: -8px;
+                    font-size: 13px;
+                    font-weight: 700;
+                    color: var(--general-color-dark);
+                }
+
+                input{
+                    border-radius: 0;
+                    border: 2px solid rgb(0, 0, 0,.1);
+                    font-size: 13px;
+                    font-weight: 600;
+                    height: 40px;
+                    box-shadow: none;
+                }
+
+                textarea{
+                    border-radius: 0;
+                    border: 2px solid rgb(0, 0, 0,.1);
+                    font-size: 13px;
+                    font-weight: 600;
+                    height: 40px;
+                    box-shadow: none;
+                    padding: 10px;
+                    height: 200px;
+                }
+
+                .select-input{
+                    width: 100%;
+                    height: 40px;
+                    border: 2px solid rgb(0, 0, 0,.1);
+                    font-weight: 700;
+                    padding: 0 8px;
+                    font-size: 13px;
+                    outline: none;
+                }
+
+                .submit-btn{
+                    padding: 10px auto;
+                    background-color: var(--general-color-dark);
+                    color: #fff;
+                    border: none;
+                    font-size: 13px;
+                    font-weight: 700;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 991px){
+        display: block;
+    }
+}

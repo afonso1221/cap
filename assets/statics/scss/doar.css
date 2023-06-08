@@ -1,0 +1,240 @@
+section.starting-section {
+  padding: 50px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.07);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 80px;
+}
+@media (max-width: 991px) {
+  section.starting-section {
+    display: block;
+    padding: 20px;
+  }
+}
+section.starting-section .left-section {
+  width: calc(100% - 400px);
+}
+@media (max-width: 991px) {
+  section.starting-section .left-section {
+    width: 100%;
+  }
+}
+section.starting-section .left-section .title {
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: 900;
+}
+@media (max-width: 991px) {
+  section.starting-section .left-section .title {
+    font-size: 25px;
+  }
+}
+section.starting-section .left-section .desc {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 10px;
+}
+@media (max-width: 991px) {
+  section.starting-section .left-section .desc {
+    font-size: 13px;
+  }
+}
+section.starting-section .right-section {
+  width: 400px;
+  padding-left: 20px;
+}
+@media (max-width: 991px) {
+  section.starting-section .right-section {
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+}
+section.starting-section .right-section .cords-section {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+section.starting-section .right-section .cords-section .top-moddle {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 13px;
+  display: flex;
+  color: rgba(0, 0, 0, 0.7);
+  letter-spacing: 1px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+section.starting-section .right-section .line-cord {
+  display: flex;
+  padding: 10px 20px;
+}
+section.starting-section .right-section .line-cord .left-pic {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 100%;
+}
+section.starting-section .right-section .line-cord .left-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section.starting-section .right-section .line-cord .right-text {
+  width: calc(100% - 50px);
+  padding-left: 10px;
+}
+section.starting-section .right-section .line-cord .right-text .name {
+  font-size: 13px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.7);
+}
+section.starting-section .right-section .line-cord .right-text .desc {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-weight: 800;
+}
+
+section.cards-line {
+  width: 100%;
+}
+section.cards-line .text-lines {
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+@media (max-width: 550px) {
+  section.cards-line .text-lines {
+    width: 90%;
+  }
+}
+section.cards-line .text-lines .title {
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 100%;
+}
+section.cards-line .text-lines .desc {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  margin-top: 10px;
+}
+section.cards-line .row {
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+section.cards-line .row .col-sm-6 {
+  width: 33.3333333333%;
+  margin-bottom: 20px;
+}
+@media (max-width: 991px) {
+  section.cards-line .row .col-sm-6 {
+    width: 50%;
+  }
+}
+@media (max-width: 532px) {
+  section.cards-line .row .col-sm-6 {
+    width: 100%;
+  }
+}
+section.cards-line .row .col-sm-6 .card {
+  border: none;
+  text-align: center;
+}
+section.cards-line .row .col-sm-6 .card .card-body .title {
+  font-size: 16px;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 5px;
+}
+section.cards-line .row .col-sm-6 .card .card-body .blug {
+  font-size: 12px;
+  font-weight: 800;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: max-content;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 0px 20px;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+section.cards-line .row .col-sm-6 .card .card-body .desc {
+  margin-top: 6px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.7);
+}
+section.cards-line .row .col-sm-6 .card .card-body .actions button {
+  font-size: 13px;
+  font-weight: 800;
+  border-radius: 40px;
+  background-color: var(--general-color-dark);
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+section.faq {
+  margin-top: 100px;
+}
+section.faq .text-lines {
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+@media (max-width: 550px) {
+  section.faq .text-lines {
+    width: 90%;
+  }
+}
+section.faq .text-lines .title {
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 100%;
+}
+section.faq .text-lines .desc {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  margin-top: 10px;
+}
+section.faq .accordion {
+  padding: 0 50px;
+}
+@media (max-width: 991px) {
+  section.faq .accordion {
+    padding: 0 20px;
+  }
+}
+section.faq .accordion .accordion-item button {
+  font-size: 14px;
+  font-weight: 800;
+  box-shadow: none;
+}
+section.faq .accordion .accordion-item strong {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}

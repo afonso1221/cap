@@ -1,0 +1,175 @@
+section.get-started {
+  padding: 80px;
+}
+@media (max-width: 991px) {
+  section.get-started {
+    padding: 40px 20px;
+  }
+}
+section.get-started .title {
+  font-size: 50px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.9);
+  line-height: 100%;
+  text-align: center;
+  padding: 0 7%;
+}
+@media (max-width: 991px) {
+  section.get-started .title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 400px) {
+  section.get-started .title {
+    padding: 0;
+  }
+}
+section.get-started .desc {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+}
+section.get-started .buttons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+@media (max-width: 400px) {
+  section.get-started .buttons {
+    display: block;
+  }
+}
+section.get-started .buttons div {
+  width: max-content;
+}
+@media (max-width: 400px) {
+  section.get-started .buttons div {
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+section.get-started .buttons div > a {
+  padding: 12px 40px;
+  border-radius: 50px;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+section.get-started .buttons div > a.blue-sign {
+  color: #fff;
+  border: none;
+  background-color: var(--general-color-dark);
+}
+
+section.navs-week {
+  padding: 0px 80px 20px 80px;
+}
+@media (max-width: 991px) {
+  section.navs-week {
+    padding: 20px;
+  }
+}
+section.navs-week .container-fluid button {
+  padding: 5px 40px;
+  border-radius: 40px;
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  gap: 10px;
+  font-size: 13px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.85);
+  left: 0;
+  right: 0;
+  margin: auto;
+  align-items: center;
+  background-color: #e7e7e7;
+  display: none;
+}
+@media (max-width: 991px) {
+  section.navs-week .container-fluid button {
+    display: flex;
+  }
+}
+section.navs-week .container-fluid button svg {
+  width: 24px;
+  height: 24px;
+}
+section.navs-week .container-fluid button svg path {
+  fill: rgba(0, 0, 0, 0.8);
+}
+section.navs-week .container-fluid .navbar-nav {
+  width: 100%;
+  margin-top: 10px;
+}
+section.navs-week .container-fluid .navbar-nav .nav-item {
+  width: max-content;
+  text-align: center;
+  display: flex;
+  left: 0;
+  right: 0;
+  margin: auto;
+  gap: 5px;
+}
+@media (max-width: 991px) {
+  section.navs-week .container-fluid .navbar-nav .nav-item {
+    display: block;
+  }
+}
+section.navs-week .container-fluid .navbar-nav .nav-item a {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+@media (min-width: 990px) {
+  section.navs-week .container-fluid .navbar-nav .nav-item a {
+    padding: 2px 10px;
+    background-color: rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+  }
+}
+section.navs-week .container-fluid .navbar-nav .nav-item a:hover {
+  color: var(--general-color-light);
+}
+section.navs-week .separators .day .ref {
+  font-size: 15px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.86);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+section.navs-week .separators .day .desc {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 10px 0;
+}
+section.navs-week .separators .day .desc .title {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--general-color-dark);
+  line-height: 110%;
+}
+section.navs-week .separators .day .desc .time {
+  display: flex;
+  gap: 5px;
+}
+section.navs-week .separators .day .desc .time .parts {
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 30px;
+  background-color: var(--general-color-10);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  line-height: 100%;
+  font-weight: 800;
+}

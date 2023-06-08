@@ -1,0 +1,178 @@
+main.forms-section {
+  padding: 50px;
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 991px) {
+  main.forms-section {
+    display: block;
+    padding: 10px;
+  }
+}
+main.forms-section .left {
+  width: 300px;
+}
+@media (max-width: 991px) {
+  main.forms-section .left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+main.forms-section .left form {
+  position: relative;
+  margin-bottom: 20px;
+}
+main.forms-section .left form .image-place {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+@media (max-width: 320px) {
+  main.forms-section .left form .image-place {
+    width: 200px;
+    height: 200px;
+  }
+}
+main.forms-section .left form .image-place img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main.forms-section .left form .photo-icon {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: var(--general-color-dark);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: max-content;
+  bottom: 20px;
+  cursor: pointer;
+}
+main.forms-section .left form .photo-icon svg {
+  width: 25px;
+  height: 25px;
+}
+main.forms-section .left form .photo-icon svg path {
+  fill: #fff;
+}
+main.forms-section .right {
+  width: calc(100% - 300px);
+}
+@media (max-width: 991px) {
+  main.forms-section .right {
+    width: 100%;
+  }
+}
+main.forms-section .right .info {
+  padding: 4px 8px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+main.forms-section .right .info .title {
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 5px;
+  color: #000;
+  line-height: 100%;
+}
+main.forms-section .right .info .desc {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.7);
+}
+main.forms-section .right .step-next {
+  font-size: 16px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.85);
+}
+main.forms-section .right .desc {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.7);
+}
+main.forms-section .right .input-line input {
+  width: 100%;
+  height: 45px;
+  outline: none;
+  padding: 0 10px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+main.forms-section .right .input-line input:focus {
+  border: 2px solid var(--general-color-10);
+}
+main.forms-section .right .input-line label {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--general-color-light);
+}
+main.forms-section .right .input-line.input-lines {
+  width: 100%;
+  display: fleX;
+  gap: 10px;
+}
+main.forms-section .right .input-line.input-lines > div {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  main.forms-section .right .input-line.input-lines {
+    display: block;
+  }
+  main.forms-section .right .input-line.input-lines > div {
+    margin-bottom: 10px;
+  }
+}
+main.forms-section .right .dflex-sex {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 991px) {
+  main.forms-section .right .dflex-sex.estado-responsive {
+    display: block;
+  }
+  main.forms-section .right .dflex-sex.estado-responsive label {
+    width: 100%;
+  }
+  main.forms-section .right .dflex-sex.estado-responsive .sex-choose {
+    width: 100%;
+  }
+}
+main.forms-section .right .dflex-sex .sex-choose {
+  width: max-content;
+  height: 100%;
+}
+main.forms-section .right .dflex-sex .sex-choose label {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  height: 45px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+main.forms-section .right .dflex-sex label:has(input:checked) {
+  background-color: rgb(90, 120, 255);
+}
+main.forms-section .right .submit-c input[type=submit] {
+  padding: 10px 0;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color: var(--general-color-light);
+  font-weight: 600;
+}

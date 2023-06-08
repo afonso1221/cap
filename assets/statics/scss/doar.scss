@@ -1,0 +1,264 @@
+section.starting-section{
+    padding: 50px;
+    display: flex;
+    background-color: rgb(0, 0, 0,.07);
+    border-bottom: 2px solid rgb(0, 0, 0,.1);
+    margin-bottom: 80px;
+
+    @media (max-width: 991px) {
+        display: block;
+        padding: 20px;
+    }
+
+    .left-section{
+        width: calc(100% - 400px);
+
+        @media(max-width: 991px){
+            width: 100%;
+        }
+
+        .title{
+            font-size: 40px;
+            line-height: 100%;
+            font-weight: 900;
+
+            @media (max-width: 991px) {
+                font-size: 25px;
+            }
+        }
+
+        .desc{
+            font-size: 14px;
+            font-weight: 700;
+            color: rgb(0, 0, 0,.7);
+            margin-top: 10px;
+
+            @media (max-width: 991px){
+                font-size: 13px;
+            }
+        }
+    }
+    
+    .right-section{
+        width: 400px;
+        padding-left: 20px;
+
+        @media(max-width: 991px){
+            width: 100%;
+            padding-left: 0px;
+            margin-top: 20px;
+        }
+
+        .cords-section{
+            width: 100%;
+            background-color: #fff;
+            border-radius: 5px;
+            border: 2px solid rgb(0, 0, 0,.1);
+            overflow: hidden;
+
+            .top-moddle{
+                width: 100%;
+                height: 40px;
+                background-color: rgb(0, 0, 0,.05);
+                font-size: 13px;
+                display: flex;
+                color: rgb(0, 0, 0,.7);
+                letter-spacing: 1px;
+                justify-content: center;
+                align-items: center;
+                font-weight: 800;
+                text-transform: uppercase;
+                border-bottom: 2px solid rgb(0, 0, 0,.1);
+            }
+        }
+
+        .line-cord{
+            display: flex;
+            padding: 10px 20px;
+
+            .left-pic{
+                width: 50px;
+                height: 50px;
+                background-color: rgb(0, 0, 0,.1);
+                border-radius: 100%;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .right-text{
+                width: calc(100% - 50px);
+                padding-left: 10px;
+
+                .name{
+                    font-size: 13px;
+                    font-weight: 800;
+                    color: rgb(0, 0, 0,.7); 
+                }
+
+                .desc{
+                    font-size: 13px;
+                    color: rgb(0, 0, 0,.70);
+                    padding: 5px;
+                    border-radius: 5px;
+                    background-color: rgb(0, 0, 0,.1);
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+}
+
+section.cards-line{
+    width: 100%;
+
+    .text-lines{
+        width: 70%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+        @media (max-width: 550px){
+            width: 90%;
+        }
+
+        .title{
+            font-size: 25px;
+            font-weight: 900;
+            text-align: center;
+            line-height: 100%;
+        }
+
+        .desc{
+            font-size: 13px;
+            font-weight: 700;
+            color: rgb(0, 0, 0,.7);
+            text-align: center;
+            margin-top: 10px;
+        }
+    }
+
+    .row{
+        width: 100%;
+        margin: auto;
+        padding: 0 20px;
+
+        .col-sm-6{
+            width: calc(100% / 3);
+            margin-bottom: 20px;
+
+            @media (max-width: 991px){
+                width: calc(100% / 2);
+            }
+
+            @media (max-width: 532px){
+                width: calc(100% / 1);
+            }
+
+            .card{
+                border: none;
+                text-align: center;
+
+                .card-body{
+                    .title{
+                        font-size: 16px;
+                        font-weight: 900;
+                        color: rgb(0,0,0,.87);
+                        margin-bottom: 5px;
+                    }
+
+                    .blug{
+                        font-size: 12px;
+                        font-weight: 800;
+                        background-color: rgb(0, 0, 0,.1);
+                        width: max-content;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        padding: 0px 20px;
+                        border-radius: 20px;
+                        border: 2px solid rgb(0, 0, 0,.1);
+                    }
+
+                    .desc{
+                        margin-top: 6px;
+                        margin-bottom: 10px;
+                        font-size: 13px;
+                        font-weight: 700;
+                        color: rgb(0, 0, 0,.7);
+                    }
+
+                    .actions{
+                        button{
+                            font-size: 13px;
+                            font-weight: 800;
+                            border-radius: 40px;
+                            background-color: var(--general-color-dark);
+                            border: none;
+                            color: #fff;
+                            padding: 10px 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.faq{
+    margin-top: 100px; 
+
+    .text-lines{
+        width: 70%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+        @media (max-width: 550px){
+            width: 90%;
+        }
+
+        .title{
+            font-size: 25px;
+            font-weight: 900;
+            text-align: center;
+            line-height: 100%;
+        }
+
+        .desc{
+            font-size: 13px;
+            font-weight: 700;
+            color: rgb(0, 0, 0,.7);
+            text-align: center;
+            margin-top: 10px;
+        }
+    }
+
+    .accordion{
+        padding: 0 50px;
+
+        @media (max-width: 991px){
+            padding: 0 20px;
+        }
+
+        .accordion-item{
+            button{
+                font-size: 14px;
+                font-weight: 800;
+                box-shadow: none;
+            }
+
+            strong{
+                font-size: 14px;
+                color: rgb(0,0,0,.7);
+            }
+        }
+    }
+}

@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/statics/dependences/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/statics/scss/main.css">
+    <link rel="stylesheet" href="../assets/statics/scss/agenda_cultos.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+              <div class="logo">
+                <!-- <img src="../assets/midea/logo/|imagem|" alt=""> -->
+              </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <svg class="svg-icon" viewBox="0 0 20 20">
+                <path fill="none"
+                  d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314
+                  c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743
+                  s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314
+                  c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z">
+                </path>
+              </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Página Inicial</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Sobre
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">CAP</a></li>
+                    <li><a class="dropdown-item" href="#">O ministério</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Pr. Ismael Sebastião</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./agenda_cultos.html">Agenda de Cultos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./galeria/galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./doar.html">Doações</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./blog/blog-post.html">CAP Blog</a>
+                </li>
+              </ul>
+              <div class="d-flex auth-btns">
+                <a href="./auth/login.html" class="auth-btn-in -click-down">Login</a>
+                <a href="./auth/registro.html" class="auth-btn-on">Registrar</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+    
+    <section class="get-started">
+      <div class="title mb-4">Architecto voluptatibus quaerat incidunt illum illo</div>
+      <div class="desc mb-4">Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eos fugit laboriosam ea dolorum aliquam repudiandae quaerat vero inventore facilis, veritatis doloremque possimus, quae recusandae est impedit sit amet consectetur adipisicing elit. Sequi, sunt. Minima, accusantium repellendus dolorum atque deleniti eius omnis quas libero doloremque suscipit quaerat, eligendi, possimus officia voluptates itaque quae quia.</div>
+      
+      <div class="buttons">
+        <div class="-click-opacity">
+          <a href="../routes/auth/registro.html">Criar conta</a>
+        </div>
+        <div class="-click-opacity">
+          <a href="./contacto.html" class="blue-sign">Contacte-nos</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="navs-week">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary mb-4">
+        <div class="container-fluid">
+          <button class="navbar-toggler -click-opacity" id="colapse-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent0"
+            aria-controls="navbarSupportedContent0" aria-expanded="false" aria-label="Toggle navigation">
+            <svg class="svg-icon" viewBox="0 0 20 20">
+							<path fill="none" d="M3.936,7.979c-1.116,0-2.021,0.905-2.021,2.021s0.905,2.021,2.021,2.021S5.957,11.116,5.957,10
+								S5.052,7.979,3.936,7.979z M3.936,11.011c-0.558,0-1.011-0.452-1.011-1.011s0.453-1.011,1.011-1.011S4.946,9.441,4.946,10
+								S4.494,11.011,3.936,11.011z M16.064,7.979c-1.116,0-2.021,0.905-2.021,2.021s0.905,2.021,2.021,2.021s2.021-0.905,2.021-2.021
+								S17.181,7.979,16.064,7.979z M16.064,11.011c-0.559,0-1.011-0.452-1.011-1.011s0.452-1.011,1.011-1.011S17.075,9.441,17.075,10
+								S16.623,11.011,16.064,11.011z M10,7.979c-1.116,0-2.021,0.905-2.021,2.021S8.884,12.021,10,12.021s2.021-0.905,2.021-2.021
+								S11.116,7.979,10,7.979z M10,11.011c-0.558,0-1.011-0.452-1.011-1.011S9.442,8.989,10,8.989S11.011,9.441,11.011,10
+								S10.558,11.011,10,11.011z"></path>
+						</svg>
+            <div>
+              Dias de semana
+            </div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item week-items">
+                <a class="nav-link -click-opacity">Domingo</a>
+                <a class="nav-link -click-opacity">Segunda-Feira</a>
+                <a class="nav-link -click-opacity">Terça-Feira</a>
+                <a class="nav-link -click-opacity">Quarta-Feira</a>
+                <a class="nav-link -click-opacity">Quinta-Feira</a>
+                <a class="nav-link -click-opacity">Sexta-Feira</a>
+                <a class="nav-link -click-opacity">Sábado</a>
+                <a class="nav-link -click-opacity">Todos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="separators">
+        <div class="day mb-4">
+          <div class="ref mb-3">
+            Domingo
+          </div>
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+        </div>
+        <div class="day mb-4">
+          <div class="ref mb-3">
+            Segunda-Feira
+          </div>
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+        </div>
+        <div class="day mb-4">
+          <div class="ref mb-3">
+            Terça-Feira
+          </div>
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+        </div>
+        <div class="day mb-4">
+          <div class="ref mb-3">
+            Quarta-Feira
+          </div>
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+        </div>
+        <div class="day mb-4">
+          <div class="ref mb-3">
+            Quinta-Feira
+          </div>
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+        </div>
+        <div class="day mb-4">
+          <div class="ref mb-3">
+            Sexta-Feira
+          </div>
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+        </div>
+        <div class="day mb-4">
+          <div class="ref mb-3">
+            Sábado
+          </div>
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+
+          <div class="desc mb-3">
+            <div class="title">
+              Here we get a title for this
+              <label>
+                <div class="time">
+                  <div class="parts">12:30</div>
+                  <div class="parts">18:30</div>
+                </div>
+              </label>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, porro maxime. Quas eius eveniet quibusdam modi sunt labore fugiat veniam aperiam, rerum illum voluptatibus, impedit unde. Ratione dolorem eum expedita.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="alert-status" id="contain-el">
+      <div class="top-bottle">
+          <div class="desc">Alerta de streming no youtube</div>
+          <div class="out-icon" id="leave-popup">
+              <svg class="svg-icon -click-opacity" viewBox="0 0 20 20">
+                  <path fill="none"
+                      d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z">
+                  </path>
+              </svg>
+          </div>
+      </div>
+
+      <div class="description">
+          <div class="left-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube"
+                  viewBox="0 0 16 16">
+                  <path
+                      d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+              </svg>
+          </div>
+
+          <div class="right-text">
+              <div class="inner-desc mb-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laudantium, voluptates non alias
+                  ducimus tempore repudiandae perspiciatis vitae molestiae fuga excepturi labore quidem suscipit, id,
+                  provident repellendus hic voluptate adipisci?
+              </div>
+
+              <div class="holder-btn">
+                  <a href="" class="btn btn-primary button-switch -click-opacity">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-youtube" viewBox="0 0 16 16">
+                          <path
+                              d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                      </svg>
+
+                      Acistir à live
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <footer class="main-footer">
+      <div class="logo-center mb-4">
+      <div class="logo-icon"></div>
+      <div class="logo-text">
+          C.A.P.
+          <br>
+          <label>Catedral de Adoração e Promessas</label>
+      </div>
+      </div>
+      <div class="row">
+      <div class="col-sm-6">
+          <div class="card">
+          <div class="card-body">
+              <div class="ioninc mb-2">
+              <svg class="svg-icon" viewBox="0 0 20 20">
+                  <path fill="none" d="M7.126,14.692h5.748c0.39,0,0.706-0.316,0.706-0.706c0-0.39-0.315-0.706-0.706-0.706H7.126c-0.39,0-0.706,0.316-0.706,0.706C6.42,14.376,6.736,14.692,7.126,14.692z"></path>
+                  <path fill="none" d="M7.126,16.899h4.641c0.39,0,0.706-0.315,0.706-0.706c0-0.389-0.316-0.706-0.706-0.706H7.126c-0.39,0-0.706,0.317-0.706,0.706C6.42,16.584,6.736,16.899,7.126,16.899z"></path>
+                  <path fill="none" d="M18.933,3.163h-3.309V1.686c0-0.392-0.316-0.706-0.706-0.706H5.061c-0.39,0-0.706,0.314-0.706,0.706v1.477H1.067c-0.39,0-0.706,0.317-0.706,0.706v7.997c0,0.391,0.316,0.706,0.706,0.706h3.301v5.743c0,0.39,0.316,0.706,0.706,0.706h7.801c0.192,0,0.373-0.077,0.507-0.215l2.054-2.121c0.127-0.131,0.198-0.306,0.198-0.491v-3.622h3.3c0.39,0,0.706-0.315,0.706-0.706V3.869C19.638,3.481,19.323,3.163,18.933,3.163z M14.222,15.908l-1.647,1.701H5.779v-5.037h8.443V15.908z M18.227,11.16h-3.3H5.074H1.773V4.575h3.288c0.39,0,0.706-0.314,0.706-0.706V2.392h8.446v1.477c0,0.392,0.316,0.706,0.706,0.706h3.309V11.16z"></path>
+              </svg>
+              </div>
+              <div class="titrle mb-1">
+              Sit exercitationem dignissimos
+              </div>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quidem ipsum modi, rem cum nemo distinctio id sunt, eligendi minus aliquid dolore ipsa veniam perspiciatis. Natus nisi aliquam sapiente praesentium.
+          </div>
+          </div>
+      </div>
+      <div class="col-sm-6">
+          <div class="card">
+          <div class="card-body">
+              <div class="ioninc mb-2">
+              <svg class="svg-icon" viewBox="0 0 20 20">
+                  <path fill="none" d="M7.126,14.692h5.748c0.39,0,0.706-0.316,0.706-0.706c0-0.39-0.315-0.706-0.706-0.706H7.126c-0.39,0-0.706,0.316-0.706,0.706C6.42,14.376,6.736,14.692,7.126,14.692z"></path>
+                  <path fill="none" d="M7.126,16.899h4.641c0.39,0,0.706-0.315,0.706-0.706c0-0.389-0.316-0.706-0.706-0.706H7.126c-0.39,0-0.706,0.317-0.706,0.706C6.42,16.584,6.736,16.899,7.126,16.899z"></path>
+                  <path fill="none" d="M18.933,3.163h-3.309V1.686c0-0.392-0.316-0.706-0.706-0.706H5.061c-0.39,0-0.706,0.314-0.706,0.706v1.477H1.067c-0.39,0-0.706,0.317-0.706,0.706v7.997c0,0.391,0.316,0.706,0.706,0.706h3.301v5.743c0,0.39,0.316,0.706,0.706,0.706h7.801c0.192,0,0.373-0.077,0.507-0.215l2.054-2.121c0.127-0.131,0.198-0.306,0.198-0.491v-3.622h3.3c0.39,0,0.706-0.315,0.706-0.706V3.869C19.638,3.481,19.323,3.163,18.933,3.163z M14.222,15.908l-1.647,1.701H5.779v-5.037h8.443V15.908z M18.227,11.16h-3.3H5.074H1.773V4.575h3.288c0.39,0,0.706-0.314,0.706-0.706V2.392h8.446v1.477c0,0.392,0.316,0.706,0.706,0.706h3.309V11.16z"></path>
+              </svg>
+              </div>
+              <div class="titrle mb-1">
+              Sit exercitationem dignissimos
+              </div>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quidem ipsum modi, rem cum nemo distinctio id sunt, eligendi minus aliquid dolore ipsa veniam perspiciatis. Natus nisi aliquam sapiente praesentium.
+          </div>
+          </div>
+      </div>
+      <div class="col-sm-6">
+          <div class="card">
+          <div class="card-body">
+              <div class="ioninc mb-2">
+              <svg class="svg-icon" viewBox="0 0 20 20">
+                  <path fill="none" d="M7.126,14.692h5.748c0.39,0,0.706-0.316,0.706-0.706c0-0.39-0.315-0.706-0.706-0.706H7.126c-0.39,0-0.706,0.316-0.706,0.706C6.42,14.376,6.736,14.692,7.126,14.692z"></path>
+                  <path fill="none" d="M7.126,16.899h4.641c0.39,0,0.706-0.315,0.706-0.706c0-0.389-0.316-0.706-0.706-0.706H7.126c-0.39,0-0.706,0.317-0.706,0.706C6.42,16.584,6.736,16.899,7.126,16.899z"></path>
+                  <path fill="none" d="M18.933,3.163h-3.309V1.686c0-0.392-0.316-0.706-0.706-0.706H5.061c-0.39,0-0.706,0.314-0.706,0.706v1.477H1.067c-0.39,0-0.706,0.317-0.706,0.706v7.997c0,0.391,0.316,0.706,0.706,0.706h3.301v5.743c0,0.39,0.316,0.706,0.706,0.706h7.801c0.192,0,0.373-0.077,0.507-0.215l2.054-2.121c0.127-0.131,0.198-0.306,0.198-0.491v-3.622h3.3c0.39,0,0.706-0.315,0.706-0.706V3.869C19.638,3.481,19.323,3.163,18.933,3.163z M14.222,15.908l-1.647,1.701H5.779v-5.037h8.443V15.908z M18.227,11.16h-3.3H5.074H1.773V4.575h3.288c0.39,0,0.706-0.314,0.706-0.706V2.392h8.446v1.477c0,0.392,0.316,0.706,0.706,0.706h3.309V11.16z"></path>
+              </svg>
+              </div>
+              <div class="titrle mb-1">
+              Sit exercitationem dignissimos
+              </div>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quidem ipsum modi, rem cum nemo distinctio id sunt, eligendi minus aliquid dolore ipsa veniam perspiciatis. Natus nisi aliquam sapiente praesentium.
+          </div>
+          </div>
+      </div>
+      <div class="col-sm-6">
+          <div class="card">
+          <div class="card-body">
+              <div class="ioninc mb-2">
+              <svg class="svg-icon" viewBox="0 0 20 20">
+                  <path fill="none" d="M7.126,14.692h5.748c0.39,0,0.706-0.316,0.706-0.706c0-0.39-0.315-0.706-0.706-0.706H7.126c-0.39,0-0.706,0.316-0.706,0.706C6.42,14.376,6.736,14.692,7.126,14.692z"></path>
+                  <path fill="none" d="M7.126,16.899h4.641c0.39,0,0.706-0.315,0.706-0.706c0-0.389-0.316-0.706-0.706-0.706H7.126c-0.39,0-0.706,0.317-0.706,0.706C6.42,16.584,6.736,16.899,7.126,16.899z"></path>
+                  <path fill="none" d="M18.933,3.163h-3.309V1.686c0-0.392-0.316-0.706-0.706-0.706H5.061c-0.39,0-0.706,0.314-0.706,0.706v1.477H1.067c-0.39,0-0.706,0.317-0.706,0.706v7.997c0,0.391,0.316,0.706,0.706,0.706h3.301v5.743c0,0.39,0.316,0.706,0.706,0.706h7.801c0.192,0,0.373-0.077,0.507-0.215l2.054-2.121c0.127-0.131,0.198-0.306,0.198-0.491v-3.622h3.3c0.39,0,0.706-0.315,0.706-0.706V3.869C19.638,3.481,19.323,3.163,18.933,3.163z M14.222,15.908l-1.647,1.701H5.779v-5.037h8.443V15.908z M18.227,11.16h-3.3H5.074H1.773V4.575h3.288c0.39,0,0.706-0.314,0.706-0.706V2.392h8.446v1.477c0,0.392,0.316,0.706,0.706,0.706h3.309V11.16z"></path>
+              </svg>
+              </div>
+              <div class="titrle mb-1">
+              Sit exercitationem dignissimos
+              </div>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quidem ipsum modi, rem cum nemo distinctio id sunt, eligendi minus aliquid dolore ipsa veniam perspiciatis. Natus nisi aliquam sapiente praesentium.
+          </div>
+          </div>
+      </div>
+      <div class="col-sm-6">
+          <div class="card">
+          <div class="card-body">
+              <div class="ioninc mb-2">
+              <svg class="svg-icon" viewBox="0 0 20 20">
+                  <path fill="none" d="M7.126,14.692h5.748c0.39,0,0.706-0.316,0.706-0.706c0-0.39-0.315-0.706-0.706-0.706H7.126c-0.39,0-0.706,0.316-0.706,0.706C6.42,14.376,6.736,14.692,7.126,14.692z"></path>
+                  <path fill="none" d="M7.126,16.899h4.641c0.39,0,0.706-0.315,0.706-0.706c0-0.389-0.316-0.706-0.706-0.706H7.126c-0.39,0-0.706,0.317-0.706,0.706C6.42,16.584,6.736,16.899,7.126,16.899z"></path>
+                  <path fill="none" d="M18.933,3.163h-3.309V1.686c0-0.392-0.316-0.706-0.706-0.706H5.061c-0.39,0-0.706,0.314-0.706,0.706v1.477H1.067c-0.39,0-0.706,0.317-0.706,0.706v7.997c0,0.391,0.316,0.706,0.706,0.706h3.301v5.743c0,0.39,0.316,0.706,0.706,0.706h7.801c0.192,0,0.373-0.077,0.507-0.215l2.054-2.121c0.127-0.131,0.198-0.306,0.198-0.491v-3.622h3.3c0.39,0,0.706-0.315,0.706-0.706V3.869C19.638,3.481,19.323,3.163,18.933,3.163z M14.222,15.908l-1.647,1.701H5.779v-5.037h8.443V15.908z M18.227,11.16h-3.3H5.074H1.773V4.575h3.288c0.39,0,0.706-0.314,0.706-0.706V2.392h8.446v1.477c0,0.392,0.316,0.706,0.706,0.706h3.309V11.16z"></path>
+              </svg>
+              </div>
+              <div class="titrle mb-1">
+              Sit exercitationem dignissimos
+              </div>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quidem ipsum modi, rem cum nemo distinctio id sunt, eligendi minus aliquid dolore ipsa veniam perspiciatis. Natus nisi aliquam sapiente praesentium.
+          </div>
+          </div>
+      </div>
+      <div class="col-sm-6">
+          <div class="card">
+          <div class="card-body">
+              
+              <div class="titrle mb-1">
+              Sit exercitationem dignissimos
+              </div>
+
+              <div class="posts-list">
+              <div class="post mb-2">
+                  <div class="image">
+                  <img src="../assets/midea/home/church.jpg" alt="">
+                  </div>
+                  <div class="texts">
+                  <div class="title">This is a title up here</div>
+                  <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, praesentium iusto assumenda non eius necessitatibus, libero numquam aliquam velit, possimus asperiores recusandae nobis corporis cum. Eum beatae aliquid blanditiis aut.</div>
+                  <div class="button-link -click-opacity"><a href="">Lêr Postagem</a></div>
+                  </div>
+              </div>
+              <div class="post mb-2">
+                  <div class="image">
+                  <img src="../assets/midea/home/church.jpg" alt="">
+                  </div>
+                  <div class="texts">
+                  <div class="title">This is a title up here</div>
+                  <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, praesentium iusto assumenda non eius necessitatibus, libero numquam aliquam velit, possimus asperiores recusandae nobis corporis cum. Eum beatae aliquid blanditiis aut.</div>
+                  <div class="button-link -click-opacity"><a href="">Lêr Postagem</a></div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          </div>
+      </div>
+      </div>
+
+      <div class="social-medias">
+          <a href="" class="-click-opacity">
+              <div class="icon-social">
+                  <svg class="svg-icon" viewBox="0 0 20 20">
+                      <path fill="none" d="M10,2.531c-4.125,0-7.469,3.344-7.469,7.469c0,4.125,3.344,7.469,7.469,7.469c4.125,0,7.469-3.344,7.469-7.469C17.469,5.875,14.125,2.531,10,2.531 M10,3.776c1.48,0,2.84,0.519,3.908,1.384c-1.009,0.811-2.111,1.512-3.298,2.066C9.914,6.072,9.077,5.017,8.14,4.059C8.728,3.876,9.352,3.776,10,3.776 M6.903,4.606c0.962,0.93,1.82,1.969,2.53,3.112C7.707,8.364,5.849,8.734,3.902,8.75C4.264,6.976,5.382,5.481,6.903,4.606 M3.776,10c2.219,0,4.338-0.418,6.29-1.175c0.209,0.404,0.405,0.813,0.579,1.236c-2.147,0.805-3.953,2.294-5.177,4.195C4.421,13.143,3.776,11.648,3.776,10 M10,16.224c-1.337,0-2.572-0.426-3.586-1.143c1.079-1.748,2.709-3.119,4.659-3.853c0.483,1.488,0.755,3.071,0.784,4.714C11.271,16.125,10.646,16.224,10,16.224 M13.075,15.407c-0.072-1.577-0.342-3.103-0.806-4.542c0.673-0.154,1.369-0.243,2.087-0.243c0.621,0,1.22,0.085,1.807,0.203C15.902,12.791,14.728,14.465,13.075,15.407 M14.356,9.378c-0.868,0-1.708,0.116-2.515,0.313c-0.188-0.464-0.396-0.917-0.621-1.359c1.294-0.612,2.492-1.387,3.587-2.284c0.798,0.97,1.302,2.187,1.395,3.517C15.602,9.455,14.99,9.378,14.356,9.378"></path>
+                  </svg>
+              </div>
+          </a>
+          <a href="" class="-click-opacity">
+              <div class="icon-social">
+                  <svg class="svg-icon" viewBox="0 0 20 20">
+                      <path fill="none" d="M14.52,2.469H5.482c-1.664,0-3.013,1.349-3.013,3.013v9.038c0,1.662,1.349,3.012,3.013,3.012h9.038c1.662,0,3.012-1.35,3.012-3.012V5.482C17.531,3.818,16.182,2.469,14.52,2.469 M13.012,4.729h2.26v2.259h-2.26V4.729z M10,6.988c1.664,0,3.012,1.349,3.012,3.012c0,1.664-1.348,3.013-3.012,3.013c-1.664,0-3.012-1.349-3.012-3.013C6.988,8.336,8.336,6.988,10,6.988 M16.025,14.52c0,0.831-0.676,1.506-1.506,1.506H5.482c-0.831,0-1.507-0.675-1.507-1.506V9.247h1.583C5.516,9.494,5.482,9.743,5.482,10c0,2.497,2.023,4.52,4.518,4.52c2.494,0,4.52-2.022,4.52-4.52c0-0.257-0.035-0.506-0.076-0.753h1.582V14.52z"></path>
+                  </svg>
+              </div>
+          </a>
+          <a href="" class="-click-opacity">
+              <div class="icon-social">
+                  <svg class="svg-icon" viewBox="0 0 20 20">
+                      <path fill="none" d="M11.039,14.123c-0.231-0.129-0.414-0.303-0.498-0.518C10.53,13.568,10.54,9.17,10.54,9.17h3.253V6.75h-3.25V3.5L8.474,3.512C8.386,4.181,8.225,4.733,7.991,5.167C7.756,5.601,7.445,5.972,7.059,6.281C6.673,6.592,6.208,6.828,5.665,6.994l0.001,2.194L7.293,9.17v4.215c0,0.594,0.067,1.047,0.198,1.359c0.133,0.312,0.37,0.607,0.713,0.887c0.343,0.277,0.757,0.49,1.242,0.639c0.484,0.15,1.008,0.23,1.64,0.23c0.555,0,1.006-0.057,1.484-0.164c0.479-0.104,1.165-0.287,1.756-0.549l0.009-1.996c-0.692,0.428-1.549,0.59-2.247,0.59C11.693,14.381,11.344,14.293,11.039,14.123"></path>
+                  </svg>
+              </div>
+          </a>
+          <a href="" class="-click-opacity">
+              <div class="icon-social">
+                  <svg class="svg-icon" viewBox="0 0 20 20">
+                      <path fill="none" d="M9.797,2.214C9.466,2.256,9.134,2.297,8.802,2.338C8.178,2.493,7.498,2.64,6.993,2.935C5.646,3.723,4.712,4.643,4.087,6.139C3.985,6.381,3.982,6.615,3.909,6.884c-0.48,1.744,0.37,3.548,1.402,4.173c0.198,0.119,0.649,0.332,0.815,0.049c0.092-0.156,0.071-0.364,0.128-0.546c0.037-0.12,0.154-0.347,0.127-0.496c-0.046-0.255-0.319-0.416-0.434-0.62C5.715,9.027,5.703,8.658,5.59,8.101c0.009-0.075,0.017-0.149,0.026-0.224C5.65,7.254,5.755,6.805,5.948,6.362c0.564-1.301,1.47-2.025,2.931-2.458c0.327-0.097,1.25-0.252,1.734-0.149c0.289,0.05,0.577,0.099,0.866,0.149c1.048,0.33,1.811,0.938,2.218,1.888c0.256,0.591,0.33,1.725,0.154,2.483c-0.085,0.36-0.072,0.667-0.179,0.993c-0.397,1.206-0.979,2.323-2.295,2.633c-0.868,0.205-1.519-0.324-1.733-0.869c-0.06-0.151-0.161-0.418-0.101-0.671c0.229-0.978,0.56-1.854,0.815-2.831c0.243-0.931-0.218-1.665-0.943-1.837C8.513,5.478,7.816,6.312,7.579,6.858C7.39,7.292,7.276,8.093,7.426,8.672c0.047,0.183,0.269,0.674,0.23,0.844c-0.174,0.755-0.372,1.568-0.587,2.31c-0.223,0.771-0.344,1.562-0.56,2.311c-0.1,0.342-0.096,0.709-0.179,1.066v0.521c-0.075,0.33-0.019,0.916,0.051,1.242c0.045,0.209-0.027,0.467,0.076,0.621c0.002,0.111,0.017,0.135,0.052,0.199c0.319-0.01,0.758-0.848,0.917-1.094c0.304-0.467,0.584-0.967,0.816-1.514c0.208-0.494,0.241-1.039,0.408-1.566c0.12-0.379,0.292-0.824,0.331-1.24h0.025c0.066,0.229,0.306,0.395,0.485,0.52c0.56,0.4,1.525,0.77,2.573,0.523c1.188-0.281,2.133-0.838,2.755-1.664c0.457-0.609,0.804-1.313,1.07-2.112c0.131-0.392,0.158-0.826,0.256-1.241c0.241-1.043-0.082-2.298-0.384-2.981C14.847,3.35,12.902,2.17,9.797,2.214"></path>
+                  </svg>
+              </div>
+          </a>
+          <a href="" class="-click-opacity">
+              <div class="icon-social">
+                  <svg class="svg-icon" viewBox="0 0 20 20">
+                      <path fill="none" d="M6.173,8.153l-2.711,2.193l2.357,1.417l0.001-0.001l0.474,0.287l1.077,0.647l1.731-1.315l0.873-0.668l0.003,0.003l0.003-0.003l0.015,0.011l0.008-0.011l2.073,1.543l0.595,0.438l3.868-2.351l-2.755-2.24l-3.802,2.409L6.173,8.153zM12.623,14.128l-0.009,0.01l-2.613-1.946l-2.507,1.92L7.47,14.147l-1.382-0.835v0.729l3.911,2.501l3.878-2.501v-0.68l-1.253,0.768L12.623,14.128z M13.786,8.104L13.786,8.104L13.786,8.104l-0.002-0.001L13.786,8.104z M3.458,6.046l2.722,2.103l3.802-2.406L7.371,3.458L3.458,6.046z M12.74,3.457L9.982,5.742l3.804,2.361l2.756-2.18L12.74,3.457z"></path>
+                  </svg>
+              </div>
+          </a>
+      </div>
+
+      <div class="copy-right">
+      <div class="text">@Todos os direitos reservados à <b>CAP</b></div>
+      </div>
+  </footer>
+
+    <script src="../assets/statics/dependences/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../assets/statics/javascript/agendaCultos.js"></script>
+    <script src="../assets/statics/javascript/main.js"></script>
+</body>
+</html>

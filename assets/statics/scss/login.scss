@@ -1,0 +1,183 @@
+body{
+    padding: 0;
+}
+
+.form-container {
+    width: 350px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 100px;
+
+    @media (max-width: 380px){
+        width: 100%;
+        padding: 10px;
+    }
+
+    .logo-center{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .logo{
+            width: 70px;
+            height: 70px;
+            background-color: rgba(0, 0, 0, 0.057);
+            border-radius: 100%;
+
+            display: flex;
+            align-items: center;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .login-text{
+        padding: 0 10px;
+        line-height: 100%;
+
+        &-title{
+            margin-top: 5px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 700;
+            color: rgb(0, 0, 0, .85);
+        }
+
+        &-desc{
+            font-size: 12px;
+            font-weight: 600;
+            color: rgb(0, 0, 0,.8);
+            text-align: center;
+            margin-top: 5px;
+        }
+    }
+
+    form{
+        margin-top: 20px;
+
+        .form-check{
+            input{
+                border-radius: 0;
+                border: 1px solid rgb(0, 0, 0,.2);
+                box-shadow: none;
+                cursor: pointer;
+            }
+
+            label{
+                font-size: 13px;
+                font-weight: 600;
+                color: rgb(0, 0, 0, .75);
+            }
+        }
+
+        .form-floating {
+            label{
+                font-size: 13px;
+                font-weight: 600;
+                color: rgb(0, 0, 0, .75);
+                margin-top: -4px;
+                font-weight: 700;
+            }
+
+            input{
+                height: 45px;
+                box-shadow: none;
+                border: 1px solid rgb(0, 0, 0,.1);
+                border-radius: 0;
+                font-size: 13px;
+                font-weight: 650;
+
+                &[type = 'password']{
+                    letter-spacing: 2px;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        input[type = 'submit'] {
+            font-size: 13px;
+            font-weight: 600;
+            color: #fff;
+            background-color: var(--general-color-light);
+            width: 100%;
+            padding: 10px;
+            border-radius: 0;
+            border: 0;
+        }
+    }
+
+    .divider-align{
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 60%;
+        padding: 10px 0 0 0;
+    }
+
+    .recovery-sets{
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+
+        a {
+            color: rgb(0, 0, 0,.8);
+        }
+
+        .nova-conta{
+            padding: 4px 20px;
+            margin-bottom: 10px;
+
+            a{
+                background-color: var(--general-color-light);
+                color: #fff;
+                padding: 7px 20px;
+                text-decoration: none;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.go-back-btn{
+    padding: 6px;
+    transform: translateX(5px);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    transition: 0.2s;
+    cursor: pointer;
+    border-radius: 100%;
+
+    @media (max-width: 500px){
+        top: 10px;
+        left: 10px;
+    }
+    
+    &:hover{
+        transition: 0.06s;
+        transform: translateX(0px);
+        background-color: var(--general-color-5);
+
+        .icon{
+            svg{
+                opacity: 70%;
+            }
+        }
+    }
+
+    .icon{
+        svg{
+            width: 25px;
+            height: 25px;
+            opacity: 40%;
+
+            path{
+                fill: rgb(0, 0, 0);
+            }
+        }
+    }
+}

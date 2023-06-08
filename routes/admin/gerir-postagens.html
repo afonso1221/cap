@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/statics/dependences/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/statics/scss/main.css">
+    <link rel="stylesheet" href="../../assets/statics/scss/admin/main.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="upper-porpuse">
+            <a href="../index.html">
+                <button class="-click-opacity">
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                        <path fill="none" d="M18.271,9.212H3.615l4.184-4.184c0.306-0.306,0.306-0.801,0-1.107c-0.306-0.306-0.801-0.306-1.107,0
+                        L1.21,9.403C1.194,9.417,1.174,9.421,1.158,9.437c-0.181,0.181-0.242,0.425-0.209,0.66c0.005,0.038,0.012,0.071,0.022,0.109
+                        c0.028,0.098,0.075,0.188,0.142,0.271c0.021,0.026,0.021,0.061,0.045,0.085c0.015,0.016,0.034,0.02,0.05,0.033l5.484,5.483
+                        c0.306,0.307,0.801,0.307,1.107,0c0.306-0.305,0.306-0.801,0-1.105l-4.184-4.185h14.656c0.436,0,0.788-0.353,0.788-0.788
+                        S18.707,9.212,18.271,9.212z"></path>
+                    </svg>
+                </button>
+            </a>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                        <path fill="none" d="M3.936,7.979c-1.116,0-2.021,0.905-2.021,2.021s0.905,2.021,2.021,2.021S5.957,11.116,5.957,10
+                    S5.052,7.979,3.936,7.979z M3.936,11.011c-0.558,0-1.011-0.452-1.011-1.011s0.453-1.011,1.011-1.011S4.946,9.441,4.946,10
+                    S4.494,11.011,3.936,11.011z M16.064,7.979c-1.116,0-2.021,0.905-2.021,2.021s0.905,2.021,2.021,2.021s2.021-0.905,2.021-2.021
+                    S17.181,7.979,16.064,7.979z M16.064,11.011c-0.559,0-1.011-0.452-1.011-1.011s0.452-1.011,1.011-1.011S17.075,9.441,17.075,10
+                    S16.623,11.011,16.064,11.011z M10,7.979c-1.116,0-2.021,0.905-2.021,2.021S8.884,12.021,10,12.021s2.021-0.905,2.021-2.021
+                    S11.116,7.979,10,7.979z M10,11.011c-0.558,0-1.011-0.452-1.011-1.011S9.442,8.989,10,8.989S11.011,9.441,11.011,10
+                    S10.558,11.011,10,11.011z"></path>
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul style="justify-content: left" class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./gerir-usuarios.html">Gerir usuários</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link alert-section" href="./mensagens.html">Mensagens de Contacto
+                                <span>99+</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./gerir-postagens.html">Gerir postagem</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex auth-btns">
+                        <a href="" style="filter: saturate(0%)" class="auth-btn-in -click-down" id="streming-btn"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">Streaming</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1">
+                                <svg class="svg-icon" viewBox="0 0 20 20">
+                                    <path
+                                        d="M16.469,8.924l-2.414,2.413c-0.156,0.156-0.408,0.156-0.564,0c-0.156-0.155-0.156-0.408,0-0.563l2.414-2.414c1.175-1.175,1.175-3.087,0-4.262c-0.57-0.569-1.326-0.883-2.132-0.883s-1.562,0.313-2.132,0.883L9.227,6.511c-1.175,1.175-1.175,3.087,0,4.263c0.288,0.288,0.624,0.511,0.997,0.662c0.204,0.083,0.303,0.315,0.22,0.52c-0.171,0.422-0.643,0.17-0.52,0.22c-0.473-0.191-0.898-0.474-1.262-0.838c-1.487-1.485-1.487-3.904,0-5.391l2.414-2.413c0.72-0.72,1.678-1.117,2.696-1.117s1.976,0.396,2.696,1.117C17.955,5.02,17.955,7.438,16.469,8.924 M10.076,7.825c-0.205-0.083-0.437,0.016-0.52,0.22c-0.083,0.205,0.016,0.437,0.22,0.52c0.374,0.151,0.709,0.374,0.997,0.662c1.176,1.176,1.176,3.088,0,4.263l-2.414,2.413c-0.569,0.569-1.326,0.883-2.131,0.883s-1.562-0.313-2.132-0.883c-1.175-1.175-1.175-3.087,0-4.262L6.51,9.227c0.156-0.155,0.156-0.408,0-0.564c-0.156-0.156-0.408-0.156-0.564,0l-2.414,2.414c-1.487,1.485-1.487,3.904,0,5.391c0.72,0.72,1.678,1.116,2.696,1.116s1.976-0.396,2.696-1.116l2.414-2.413c1.487-1.486,1.487-3.905,0-5.392C10.974,8.298,10.55,8.017,10.076,7.825">
+                                    </path>
+                                </svg>
+                            </span>
+                            <input type="text" class="form-control" placeholder="afonso@afonso" aria-label="username"
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1">
+                                <svg class="svg-icon" viewBox="0 0 20 20">
+                                    <path
+                                        d="M14.999,8.543c0,0.229-0.188,0.417-0.416,0.417H5.417C5.187,8.959,5,8.772,5,8.543s0.188-0.417,0.417-0.417h9.167C14.812,8.126,14.999,8.314,14.999,8.543 M12.037,10.213H5.417C5.187,10.213,5,10.4,5,10.63c0,0.229,0.188,0.416,0.417,0.416h6.621c0.229,0,0.416-0.188,0.416-0.416C12.453,10.4,12.266,10.213,12.037,10.213 M14.583,6.046H5.417C5.187,6.046,5,6.233,5,6.463c0,0.229,0.188,0.417,0.417,0.417h9.167c0.229,0,0.416-0.188,0.416-0.417C14.999,6.233,14.812,6.046,14.583,6.046 M17.916,3.542v10c0,0.229-0.188,0.417-0.417,0.417H9.373l-2.829,2.796c-0.117,0.116-0.71,0.297-0.71-0.296v-2.5H2.5c-0.229,0-0.417-0.188-0.417-0.417v-10c0-0.229,0.188-0.417,0.417-0.417h15C17.729,3.126,17.916,3.313,17.916,3.542 M17.083,3.959H2.917v9.167H6.25c0.229,0,0.417,0.187,0.417,0.416v1.919l2.242-2.215c0.079-0.077,0.184-0.12,0.294-0.12h7.881V3.959z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <input type="text" class="form-control" placeholder="afonso@afonso" aria-label="username"
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group">
+                            <input type="submit" class="form-control -click-down" placeholder="afonso@afonso"
+                                aria-label="username" aria-describedby="basic-addon1">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="search-item ajustment-max-width">
+        <form action="">
+            <input type="text" class="search-input" placeholder="Encontrar usuário">
+            <button type="submit" class="-click-opacity">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path fill="none"
+                        d="M12.323,2.398c-0.741-0.312-1.523-0.472-2.319-0.472c-2.394,0-4.544,1.423-5.476,3.625C3.907,7.013,3.896,8.629,4.49,10.102c0.528,1.304,1.494,2.333,2.72,2.99L5.467,17.33c-0.113,0.273,0.018,0.59,0.292,0.703c0.068,0.027,0.137,0.041,0.206,0.041c0.211,0,0.412-0.127,0.498-0.334l1.74-4.23c0.583,0.186,1.18,0.309,1.795,0.309c2.394,0,4.544-1.424,5.478-3.629C16.755,7.173,15.342,3.68,12.323,2.398z M14.488,9.77c-0.769,1.807-2.529,2.975-4.49,2.975c-0.651,0-1.291-0.131-1.897-0.387c-0.002-0.004-0.002-0.004-0.002-0.004c-0.003,0-0.003,0-0.003,0s0,0,0,0c-1.195-0.508-2.121-1.452-2.607-2.656c-0.489-1.205-0.477-2.53,0.03-3.727c0.764-1.805,2.525-2.969,4.487-2.969c0.651,0,1.292,0.129,1.898,0.386C14.374,4.438,15.533,7.3,14.488,9.77z">
+                    </path>
+                </svg>
+            </button>
+        </form>
+    </div>
+
+    <section class="users-table-list" style="margin-top: 0px;">
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <div class="nome">Título da posgem</div>
+                        <div style="display: flex; gap: 5px">
+                            <div class="cropper">Categoria da postagem</div>
+                            <div class="cropper" style="background-color: var(--general-color-10);">Novo</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="email">Submetido em</div>
+                        <div class="cropper">12 de Março de 2022</div>
+                    </td>
+                    <td>
+                        <div class="email">Submetido por</div>
+                        <div class="cropper">Afonso Ricardo Agostinho Nzango</div>
+                    </td>
+                    <td>
+                        <div class="email">Visualizações</div>
+                        <div class="cropper">
+                            <svg class="svg-icon" viewBox="0 0 20 20">
+                                <path fill="none"
+                                    d="M19.471,8.934L18.883,8.34c-2.096-2.14-4.707-4.804-8.903-4.804c-4.171,0-6.959,2.83-8.996,4.897L0.488,8.934c-0.307,0.307-0.307,0.803,0,1.109l0.401,0.403c2.052,2.072,4.862,4.909,9.091,4.909c4.25,0,6.88-2.666,8.988-4.807l0.503-0.506C19.778,9.737,19.778,9.241,19.471,8.934z M9.98,13.787c-3.493,0-5.804-2.254-7.833-4.3C4.182,7.424,6.493,5.105,9.98,5.105c3.536,0,5.792,2.301,7.784,4.332l0.049,0.051C15.818,11.511,13.551,13.787,9.98,13.787z">
+                                </path>
+                                <circle fill="none" cx="9.98" cy="9.446" r="1.629"></circle>
+                            </svg>
+                            <span>
+                                120
+                            </span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="email" style="opacity: 0">Ações</div>
+                        <div class="cropper">
+                            <button class="-click-opacity" style="margin-right: 10px;" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal1">Contexto</button>
+                            <a href="" class="-click-opacity delete-g">Eliminar</a>
+                            <a href="../blog/blog-post.html" class="-click-opacity redirect-g">Vêr postagem</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="title">
+                        Category Message
+                    </div>
+                    <div class="desc">
+                        Aqui deve aparecer apaneas a parte textual do mesmo post. O botão ao lado deve redirecionar o
+                        para a página principal do post.
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, eligendi necessitatibus inventore
+                        provident officiis perspiciatis sunt quod pariatur earum nulla officia perferendis. Odio quas
+                        reiciendis dolores error, aspernatur placeat vel.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert-status" id="contain-el">
+        <div class="top-bottle">
+            <div class="desc">Alerta de streming no youtube</div>
+            <div class="out-icon" id="leave-popup">
+                <svg class="svg-icon -click-opacity" viewBox="0 0 20 20">
+                    <path fill="none"
+                        d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+
+        <div class="description">
+            <div class="left-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                </svg>
+            </div>
+
+            <div class="right-text">
+                <div class="inner-desc mb-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laudantium, voluptates non alias
+                    ducimus tempore repudiandae perspiciatis vitae molestiae fuga excepturi labore quidem suscipit, id,
+                    provident repellendus hic voluptate adipisci?
+                </div>
+
+                <div class="holder-btn">
+                    <a href="" class="btn btn-primary button-switch -click-opacity">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path
+                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                        </svg>
+
+                        Acistir à live
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../assets/statics/javascript/admin/admin-main.js"></script>
+    <script src="../../assets/statics/dependences/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
